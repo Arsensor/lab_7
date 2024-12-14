@@ -1,7 +1,7 @@
 document.getElementById("get_button").onclick = get_product_by_id;
 function get_product_by_id() {
     let data = document.getElementById("id_data_product").value;
-    if (isNaN(data) || data < 1 || data > 30) {
+    if (isNaN(data) || data < 1 || data > 194) {
         alert("Введите корректный номер продукта!");
         return;
     } else {
